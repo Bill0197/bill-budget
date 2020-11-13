@@ -15,6 +15,7 @@ body {
   background:#dbe297f5;;
   color: var(--mainDark);
   max-height: 100vh;
+  font-family: fantasy;
 }
 .budget-feedback,
 .expense-feedback {
