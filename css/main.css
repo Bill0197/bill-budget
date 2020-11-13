@@ -12,7 +12,7 @@
 }
 
 body {
-  background: var(--mainWhite);
+  background:#dbe297f5;;
   color: var(--mainDark);
   max-height: 100vh;
 }
@@ -24,6 +24,7 @@ body {
 #id{
 letter-spacing: 5px;
 font-size: 3em;
+color: #434343;
 text-align: center;
 }
 .budget-form {
@@ -90,7 +91,7 @@ text-align: center;
   font-size: 1.5rem;
 }
 .budget {
-  font-size: 1.6rem;
+  font-size: 1.rem;
   color: var(--mainGreen);
 }
 .expense {
@@ -117,14 +118,13 @@ text-align: center;
 }
 @media screen and (min-width: 992px) {
   .budget {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
     color: var(--mainGreen);
   }
 @media screen and (max-width: 768px) {
   .expenseClass {
     margin: 0 10px 10px 10px;
   }
-
   .expense {
     font-size: 2.6rem;
     color: var(--mainRed);
